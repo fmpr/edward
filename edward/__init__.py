@@ -7,7 +7,8 @@ from . import inferences
 from . import util
 
 # Direct imports for convenience
-from .models import PyMC3Model, PythonModel, StanModel
+#from .models import PyMC3Model, PythonModel, StanModel
+from .models import *
 from .criticisms import evaluate, ppc
 from .data import Data
 from .inferences import Inference, MonteCarlo, VariationalInference, MFVI, KLpq, MAP, Laplace

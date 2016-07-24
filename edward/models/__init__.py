@@ -1,7 +1,9 @@
 from __future__ import absolute_import
-from .distributions import *
-from .models import *
+from __future__ import division
+from __future__ import print_function
 
+from edward.models.models import *
+from edward.models.random_variables import *
 # TEMP
-from .stochastic_graph import *
-from .distributions_scg import *
+from edward.stochastic_graph import *
+from edward.distributions_scg import *
